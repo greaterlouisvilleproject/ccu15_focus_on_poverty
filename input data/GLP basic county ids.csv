@@ -1,0 +1,231 @@
+City,County,State,Display Name,FIPS,Current Peer,Baseline Peer,year
+St. Louis,St. Louis WGT,MO,STL,0,1,0,2005
+Grand Rapids,Kent,MI,GR,26081,1,0,2005
+St. Louis,St. Louis County,MO,,29189,1,0,2005
+St. Louis,St. Louis City,MO,,29510,1,0,2005
+Oklahoma City,Oklahoma,OK,OKC,40109,1,0,2005
+Tulsa,Tulsa,OK,TUL,40143,1,0,2005
+Greenville,Greenville,SC,GVL,45045,1,0,2005
+Knoxville,Knox,TN,KNO,47093,1,0,2005
+St. Louis,St. Louis WGT,MO,STL,0,1,0,2006
+Grand Rapids,Kent,MI,GR,26081,1,0,2006
+St. Louis,St. Louis County,MO,,29189,1,0,2006
+St. Louis,St. Louis City,MO,,29510,1,0,2006
+Oklahoma City,Oklahoma,OK,OKC,40109,1,0,2006
+Tulsa,Tulsa,OK,TUL,40143,1,0,2006
+Greenville,Greenville,SC,GVL,45045,1,0,2006
+Knoxville,Knox,TN,KNO,47093,1,0,2006
+St. Louis,St. Louis WGT,MO,STL,0,1,0,2007
+Grand Rapids,Kent,MI,GR,26081,1,0,2007
+St. Louis,St. Louis County,MO,,29189,1,0,2007
+St. Louis,St. Louis City,MO,,29510,1,0,2007
+Oklahoma City,Oklahoma,OK,OKC,40109,1,0,2007
+Tulsa,Tulsa,OK,TUL,40143,1,0,2007
+Greenville,Greenville,SC,GVL,45045,1,0,2007
+Knoxville,Knox,TN,KNO,47093,1,0,2007
+St. Louis,St. Louis WGT,MO,STL,0,1,0,2008
+Grand Rapids,Kent,MI,GR,26081,1,0,2008
+St. Louis,St. Louis County,MO,,29189,1,0,2008
+St. Louis,St. Louis City,MO,,29510,1,0,2008
+Oklahoma City,Oklahoma,OK,OKC,40109,1,0,2008
+Tulsa,Tulsa,OK,TUL,40143,1,0,2008
+Greenville,Greenville,SC,GVL,45045,1,0,2008
+Knoxville,Knox,TN,KNO,47093,1,0,2008
+St. Louis,St. Louis WGT,MO,STL,0,1,0,2009
+Grand Rapids,Kent,MI,GR,26081,1,0,2009
+St. Louis,St. Louis County,MO,,29189,1,0,2009
+St. Louis,St. Louis City,MO,,29510,1,0,2009
+Oklahoma City,Oklahoma,OK,OKC,40109,1,0,2009
+Tulsa,Tulsa,OK,TUL,40143,1,0,2009
+Greenville,Greenville,SC,GVL,45045,1,0,2009
+Knoxville,Knox,TN,KNO,47093,1,0,2009
+St. Louis,St. Louis WGT,MO,STL,0,1,0,2010
+Grand Rapids,Kent,MI,GR,26081,1,0,2010
+St. Louis,St. Louis County,MO,,29189,1,0,2010
+St. Louis,St. Louis City,MO,,29510,1,0,2010
+Oklahoma City,Oklahoma,OK,OKC,40109,1,0,2010
+Tulsa,Tulsa,OK,TUL,40143,1,0,2010
+Greenville,Greenville,SC,GVL,45045,1,0,2010
+Knoxville,Knox,TN,KNO,47093,1,0,2010
+St. Louis,St. Louis WGT,MO,STL,0,1,0,2011
+Grand Rapids,Kent,MI,GR,26081,1,0,2011
+St. Louis,St. Louis County,MO,,29189,1,0,2011
+St. Louis,St. Louis City,MO,,29510,1,0,2011
+Oklahoma City,Oklahoma,OK,OKC,40109,1,0,2011
+Tulsa,Tulsa,OK,TUL,40143,1,0,2011
+Greenville,Greenville,SC,GVL,45045,1,0,2011
+Knoxville,Knox,TN,KNO,47093,1,0,2011
+St. Louis,St. Louis WGT,MO,STL,0,1,0,2012
+Grand Rapids,Kent,MI,GR,26081,1,0,2012
+St. Louis,St. Louis County,MO,,29189,1,0,2012
+St. Louis,St. Louis City,MO,,29510,1,0,2012
+Oklahoma City,Oklahoma,OK,OKC,40109,1,0,2012
+Tulsa,Tulsa,OK,TUL,40143,1,0,2012
+Greenville,Greenville,SC,GVL,45045,1,0,2012
+Knoxville,Knox,TN,KNO,47093,1,0,2012
+St. Louis,St. Louis WGT,MO,STL,0,1,0,2013
+Grand Rapids,Kent,MI,GR,26081,1,0,2013
+St. Louis,St. Louis County,MO,,29189,1,0,2013
+St. Louis,St. Louis City,MO,,29510,1,0,2013
+Oklahoma City,Oklahoma,OK,OKC,40109,1,0,2013
+Tulsa,Tulsa,OK,TUL,40143,1,0,2013
+Greenville,Greenville,SC,GVL,45045,1,0,2013
+Knoxville,Knox,TN,KNO,47093,1,0,2013
+St. Louis,St. Louis WGT,MO,STL,0,1,0,2014
+Grand Rapids,Kent,MI,GR,26081,1,0,2014
+St. Louis,St. Louis County,MO,,29189,1,0,2014
+St. Louis,St. Louis City,MO,,29510,1,0,2014
+Oklahoma City,Oklahoma,OK,OKC,40109,1,0,2014
+Tulsa,Tulsa,OK,TUL,40143,1,0,2014
+Greenville,Greenville,SC,GVL,45045,1,0,2014
+Knoxville,Knox,TN,KNO,47093,1,0,2014
+Birmingham,Jefferson,AL,BIR,1073,1,1,2005
+Indianapolis,Marion,IN,IND,18097,1,1,2005
+Louisville,Jefferson,KY,LOU,21111,1,1,2005
+Kansas City,Jackson,MO,KC,29095,1,1,2005
+Omaha,Douglas,NE,OMA,31055,1,1,2005
+Greensboro,Guilford,NC,GBR,37081,1,1,2005
+Charlotte,Mecklenberg,NC,CHA,37119,1,1,2005
+Columbus,Franklin,OH,COL,39049,1,1,2005
+Cincinatti,Hamilton,OH,CIN,39061,1,1,2005
+Nashville,Davidson,TN,NAS,47037,1,1,2005
+Memphis,Shelby,TN,MEM,47157,1,1,2005
+Birmingham,Jefferson,AL,BIR,1073,1,1,2006
+Indianapolis,Marion,IN,IND,18097,1,1,2006
+Louisville,Jefferson,KY,LOU,21111,1,1,2006
+Kansas City,Jackson,MO,KC,29095,1,1,2006
+Omaha,Douglas,NE,OMA,31055,1,1,2006
+Greensboro,Guilford,NC,GBR,37081,1,1,2006
+Charlotte,Mecklenberg,NC,CHA,37119,1,1,2006
+Columbus,Franklin,OH,COL,39049,1,1,2006
+Cincinatti,Hamilton,OH,CIN,39061,1,1,2006
+Nashville,Davidson,TN,NAS,47037,1,1,2006
+Memphis,Shelby,TN,MEM,47157,1,1,2006
+Birmingham,Jefferson,AL,BIR,1073,1,1,2007
+Indianapolis,Marion,IN,IND,18097,1,1,2007
+Louisville,Jefferson,KY,LOU,21111,1,1,2007
+Kansas City,Jackson,MO,KC,29095,1,1,2007
+Omaha,Douglas,NE,OMA,31055,1,1,2007
+Greensboro,Guilford,NC,GBR,37081,1,1,2007
+Charlotte,Mecklenberg,NC,CHA,37119,1,1,2007
+Columbus,Franklin,OH,COL,39049,1,1,2007
+Cincinatti,Hamilton,OH,CIN,39061,1,1,2007
+Nashville,Davidson,TN,NAS,47037,1,1,2007
+Memphis,Shelby,TN,MEM,47157,1,1,2007
+Birmingham,Jefferson,AL,BIR,1073,1,1,2008
+Indianapolis,Marion,IN,IND,18097,1,1,2008
+Louisville,Jefferson,KY,LOU,21111,1,1,2008
+Kansas City,Jackson,MO,KC,29095,1,1,2008
+Omaha,Douglas,NE,OMA,31055,1,1,2008
+Greensboro,Guilford,NC,GBR,37081,1,1,2008
+Charlotte,Mecklenberg,NC,CHA,37119,1,1,2008
+Columbus,Franklin,OH,COL,39049,1,1,2008
+Cincinatti,Hamilton,OH,CIN,39061,1,1,2008
+Nashville,Davidson,TN,NAS,47037,1,1,2008
+Memphis,Shelby,TN,MEM,47157,1,1,2008
+Birmingham,Jefferson,AL,BIR,1073,1,1,2009
+Indianapolis,Marion,IN,IND,18097,1,1,2009
+Louisville,Jefferson,KY,LOU,21111,1,1,2009
+Kansas City,Jackson,MO,KC,29095,1,1,2009
+Omaha,Douglas,NE,OMA,31055,1,1,2009
+Greensboro,Guilford,NC,GBR,37081,1,1,2009
+Charlotte,Mecklenberg,NC,CHA,37119,1,1,2009
+Columbus,Franklin,OH,COL,39049,1,1,2009
+Cincinatti,Hamilton,OH,CIN,39061,1,1,2009
+Nashville,Davidson,TN,NAS,47037,1,1,2009
+Memphis,Shelby,TN,MEM,47157,1,1,2009
+Birmingham,Jefferson,AL,BIR,1073,1,1,2010
+Indianapolis,Marion,IN,IND,18097,1,1,2010
+Louisville,Jefferson,KY,LOU,21111,1,1,2010
+Kansas City,Jackson,MO,KC,29095,1,1,2010
+Omaha,Douglas,NE,OMA,31055,1,1,2010
+Greensboro,Guilford,NC,GBR,37081,1,1,2010
+Charlotte,Mecklenberg,NC,CHA,37119,1,1,2010
+Columbus,Franklin,OH,COL,39049,1,1,2010
+Cincinatti,Hamilton,OH,CIN,39061,1,1,2010
+Nashville,Davidson,TN,NAS,47037,1,1,2010
+Memphis,Shelby,TN,MEM,47157,1,1,2010
+Birmingham,Jefferson,AL,BIR,1073,1,1,2011
+Indianapolis,Marion,IN,IND,18097,1,1,2011
+Louisville,Jefferson,KY,LOU,21111,1,1,2011
+Kansas City,Jackson,MO,KC,29095,1,1,2011
+Omaha,Douglas,NE,OMA,31055,1,1,2011
+Greensboro,Guilford,NC,GBR,37081,1,1,2011
+Charlotte,Mecklenberg,NC,CHA,37119,1,1,2011
+Columbus,Franklin,OH,COL,39049,1,1,2011
+Cincinatti,Hamilton,OH,CIN,39061,1,1,2011
+Nashville,Davidson,TN,NAS,47037,1,1,2011
+Memphis,Shelby,TN,MEM,47157,1,1,2011
+Birmingham,Jefferson,AL,BIR,1073,1,1,2012
+Indianapolis,Marion,IN,IND,18097,1,1,2012
+Louisville,Jefferson,KY,LOU,21111,1,1,2012
+Kansas City,Jackson,MO,KC,29095,1,1,2012
+Omaha,Douglas,NE,OMA,31055,1,1,2012
+Greensboro,Guilford,NC,GBR,37081,1,1,2012
+Charlotte,Mecklenberg,NC,CHA,37119,1,1,2012
+Columbus,Franklin,OH,COL,39049,1,1,2012
+Cincinatti,Hamilton,OH,CIN,39061,1,1,2012
+Nashville,Davidson,TN,NAS,47037,1,1,2012
+Memphis,Shelby,TN,MEM,47157,1,1,2012
+Birmingham,Jefferson,AL,BIR,1073,1,1,2013
+Indianapolis,Marion,IN,IND,18097,1,1,2013
+Louisville,Jefferson,KY,LOU,21111,1,1,2013
+Kansas City,Jackson,MO,KC,29095,1,1,2013
+Omaha,Douglas,NE,OMA,31055,1,1,2013
+Greensboro,Guilford,NC,GBR,37081,1,1,2013
+Charlotte,Mecklenberg,NC,CHA,37119,1,1,2013
+Columbus,Franklin,OH,COL,39049,1,1,2013
+Cincinatti,Hamilton,OH,CIN,39061,1,1,2013
+Nashville,Davidson,TN,NAS,47037,1,1,2013
+Memphis,Shelby,TN,MEM,47157,1,1,2013
+Birmingham,Jefferson,AL,BIR,1073,1,1,2014
+Indianapolis,Marion,IN,IND,18097,1,1,2014
+Louisville,Jefferson,KY,LOU,21111,1,1,2014
+Kansas City,Jackson,MO,KC,29095,1,1,2014
+Omaha,Douglas,NE,OMA,31055,1,1,2014
+Greensboro,Guilford,NC,GBR,37081,1,1,2014
+Charlotte,Mecklenberg,NC,CHA,37119,1,1,2014
+Columbus,Franklin,OH,COL,39049,1,1,2014
+Cincinatti,Hamilton,OH,CIN,39061,1,1,2014
+Nashville,Davidson,TN,NAS,47037,1,1,2014
+Memphis,Shelby,TN,MEM,47157,1,1,2014
+Jacksonville,Duval,FL,JAC,12031,0,1,2005
+Raleigh,Wake,NC,RAL,37183,0,1,2005
+Dayton,Montgomery,OH,DAY,39113,0,1,2005
+Richmond,Richmond City,VA,RIC,51760,0,1,2005
+Jacksonville,Duval,FL,JAC,12031,0,1,2006
+Raleigh,Wake,NC,RAL,37183,0,1,2006
+Dayton,Montgomery,OH,DAY,39113,0,1,2006
+Richmond,Richmond City,VA,RIC,51760,0,1,2006
+Jacksonville,Duval,FL,JAC,12031,0,1,2007
+Raleigh,Wake,NC,RAL,37183,0,1,2007
+Dayton,Montgomery,OH,DAY,39113,0,1,2007
+Richmond,Richmond City,VA,RIC,51760,0,1,2007
+Jacksonville,Duval,FL,JAC,12031,0,1,2008
+Raleigh,Wake,NC,RAL,37183,0,1,2008
+Dayton,Montgomery,OH,DAY,39113,0,1,2008
+Richmond,Richmond City,VA,RIC,51760,0,1,2008
+Jacksonville,Duval,FL,JAC,12031,0,1,2009
+Raleigh,Wake,NC,RAL,37183,0,1,2009
+Dayton,Montgomery,OH,DAY,39113,0,1,2009
+Richmond,Richmond City,VA,RIC,51760,0,1,2009
+Jacksonville,Duval,FL,JAC,12031,0,1,2010
+Raleigh,Wake,NC,RAL,37183,0,1,2010
+Dayton,Montgomery,OH,DAY,39113,0,1,2010
+Richmond,Richmond City,VA,RIC,51760,0,1,2010
+Jacksonville,Duval,FL,JAC,12031,0,1,2011
+Raleigh,Wake,NC,RAL,37183,0,1,2011
+Dayton,Montgomery,OH,DAY,39113,0,1,2011
+Richmond,Richmond City,VA,RIC,51760,0,1,2011
+Jacksonville,Duval,FL,JAC,12031,0,1,2012
+Raleigh,Wake,NC,RAL,37183,0,1,2012
+Dayton,Montgomery,OH,DAY,39113,0,1,2012
+Richmond,Richmond City,VA,RIC,51760,0,1,2012
+Jacksonville,Duval,FL,JAC,12031,0,1,2013
+Raleigh,Wake,NC,RAL,37183,0,1,2013
+Dayton,Montgomery,OH,DAY,39113,0,1,2013
+Richmond,Richmond City,VA,RIC,51760,0,1,2013
+Jacksonville,Duval,FL,JAC,12031,0,1,2014
+Raleigh,Wake,NC,RAL,37183,0,1,2014
+Dayton,Montgomery,OH,DAY,39113,0,1,2014
+Richmond,Richmond City,VA,RIC,51760,0,1,2014

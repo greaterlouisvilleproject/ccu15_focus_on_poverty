@@ -1,0 +1,145 @@
+---
+title: "Multidimensional Poverty in Louisville"
+output: html_notebook
+---
+
+###The Greater Louisville Project
+
+The map below is an interactive version of the data introduced in our [Louisville: A Focus on Poverty](http://greaterlouisvilleproject.com/annual-city-reports/2015-competitive-city-update/) report.
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+library(leaflet)
+library(rgdal)
+library(htmlwidgets)
+library(RColorBrewer)
+library(tidyverse)
+
+
+map_jc = readOGR("C:/Users/natek/Documents/JC Tracts", layer = "JC Tracts",
+                 GDAL1_integer64_policy = TRUE, verbose = FALSE)
+
+tract_data = read_csv("C:/Users/natek/OneDrive/GLP/CCU 15 Replication Files/output data/Tract Area MPI.csv")
+
+map_jc@data<-full_join(map_jc@data, tract_data, by = c('GEO_ID' = 'census_tract'))
+
+map_jc@data$Neighborhood[is.na(map_jc@data$Neighborhood)] <- "Airport"
+
+map_jc@data$l_line1 <- paste("Tract #:", map_jc@data$TRACT, "in the")
+map_jc@data$l_line2 <- paste(map_jc@data$Neighborhood, "Area")
+
+
+##start function 
+map_jc@data$l_line3_mpi <- paste("Poverty Index: ", round(map_jc@data$mpi_score, 2), sep = "")
+map_jc@data$l_line3_unemp <- paste("Unemployment: ", round(map_jc@data$unemployed, 0), "%", sep = "")
+map_jc@data$l_line3_li <- paste("Under 150% of Poverty Line: ", round(map_jc@data$low_income, 0), "%", sep = "")
+map_jc@data$l_line3_health <- paste("No Health Insurance: ", round(map_jc@data$uninsured, 0), "%", sep = "")
+map_jc@data$l_line3_educ <- paste("No High School Degree: ", round(map_jc@data$no_hs_degree, 0), "%", sep = "")
+
+
+labels_mpi <- sprintf(
+  "%s<br/>%s<br/>%s",
+  map_jc@data$l_line1, map_jc@data$l_line2, map_jc@data$l_line3_mpi
+) %>% lapply(htmltools::HTML)
+
+labels_unemp <- sprintf(
+  "%s<br/>%s<br/>%s",
+  map_jc@data$l_line1, map_jc@data$l_line2, map_jc@data$l_line3_unemp
+) %>% lapply(htmltools::HTML)
+
+labels_li <- sprintf(
+  "%s<br/>%s<br/>%s",
+  map_jc@data$l_line1, map_jc@data$l_line2, map_jc@data$l_line3_li
+) %>% lapply(htmltools::HTML)
+
+labels_health <- sprintf(
+  "%s<br/>%s<br/>%s",
+  map_jc@data$l_line1, map_jc@data$l_line2, map_jc@data$l_line3_health
+) %>% lapply(htmltools::HTML)
+
+labels_educ <- sprintf(
+  "%s<br/>%s<br/>%s",
+  map_jc@data$l_line1, map_jc@data$l_line2, map_jc@data$l_line3_educ
+) %>% lapply(htmltools::HTML)
+
+#pal <- rev(brewer.pal(11, "RdYlGn"))
+pal <- brewer.pal(11, "RdYlGn")
+pal_rev <- rev(brewer.pal(11, "RdYlGn"))
+
+
+pal_mpi <- colorNumeric(
+  palette = pal,
+  domain = map_jc@data$mpi_score
+)
+
+pal_unemp <- colorNumeric(
+  palette = pal_rev,
+  domain = map_jc@data$unemployed
+)
+
+pal_li <- colorNumeric(
+  palette = pal_rev,
+  domain = map_jc@data$low_income
+)
+
+pal_health <- colorNumeric(
+  palette = pal_rev,
+  domain = map_jc@data$uninsured
+)
+
+pal_educ <- colorNumeric(
+  palette = pal_rev,
+  domain = map_jc@data$no_hs_degree
+)
+
+
+leaflet(map_jc) %>%
+  addTiles() %>%
+  addPolygons(group = "Poverty Index", color = "#444444", weight = 1, smoothFactor = 0.5,
+              opacity = 0.5, fillOpacity = 0.5,
+              fillColor = ~pal_mpi(mpi_score),
+              label = labels_mpi,
+              labelOptions = labelOptions(
+                style = list("font-weight" = "normal", padding = "3px 8px"),
+                textsize = "15px",
+                direction = "auto"))%>%
+  addPolygons(group = "Low Income", color = "#444444", weight = 1, smoothFactor = 0.5,
+              opacity = 0.5, fillOpacity = 0.5,
+              fillColor = ~pal_li(low_income),
+              label = labels_li,
+              labelOptions = labelOptions(
+                style = list("font-weight" = "normal", padding = "3px 8px"),
+                textsize = "15px",
+                direction = "auto"))%>%
+    addPolygons(group = "Unemployment", color = "#444444", weight = 1, smoothFactor = 0.5,
+              opacity = 0.5, fillOpacity = 0.5,
+              fillColor = ~pal_unemp(unemployed),
+              label = labels_unemp,
+              labelOptions = labelOptions(
+                style = list("font-weight" = "normal", padding = "3px 8px"),
+                textsize = "15px",
+                direction = "auto"))%>%
+  addPolygons(group = "No Health Insurance", color = "#444444", weight = 1, smoothFactor = 0.5,
+              opacity = 0.5, fillOpacity = 0.5,
+              fillColor = ~pal_health(uninsured),
+              label = labels_health,
+              labelOptions = labelOptions(
+                style = list("font-weight" = "normal", padding = "3px 8px"),
+                textsize = "15px",
+                direction = "auto"))%>%
+  addPolygons(group = "No High School Degree", color = "#444444", weight = 1, smoothFactor = 0.5,
+              opacity = 0.5, fillOpacity = 0.5,
+              fillColor = ~pal_educ(no_hs_degree),
+              label = labels_educ,
+              labelOptions = labelOptions(
+                style = list("font-weight" = "normal", padding = "3px 8px"),
+                textsize = "15px",
+                direction = "auto"))%>%
+
+  addLayersControl(
+    baseGroups = c("Poverty Index", "Low Income", "No Health Insurance", "No High School Degree", "Unemployment"),
+    options = layersControlOptions(collapsed = FALSE)
+  )
+
+
+```
+
